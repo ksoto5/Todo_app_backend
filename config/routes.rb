@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   root to: 'todo#index'
-  get "/new", to: "todo#new"
-  get "/create", to: "todo#create"
-  get "/edit/:id", to: "todo#edit"
-  get "/update/:id", to: "todo#update"
-  get "/show/:id", to: "todo#show"
+  get "/todo/new", to: "todo#new"
+  get "/todo/create", to: "todo#create"
+  get "/todo/edit/:id", to: "todo#edit"
+  get "/todo/update/:id", to: "todo#update"
+  get "/todo/show/:id", to: "todo#show"
 end
